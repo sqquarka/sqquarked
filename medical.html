@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Medycyna 3D | SQQUARKED</title>
+  <link rel="stylesheet" href="../../assets/css/main.css">
+  <style>
+    .model-viewer {
+      height: 400px;
+      background: #f5f5f5;
+      border-radius: 8px;
+      margin: 2rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="../../index.html">← SQQUARKED</a></h1>
+    <nav>
+      <a href="../../index.html">Home</a>
+      <a href="../lab-gear.html">Laboratorium</a>
+      <a href="../engineering/">Inżynieria</a>
+    </nav>
+  </header>
+
+  <main class="project-detail">
+    <h2>Rekonstrukcje medyczne 3D</h2>
+    
+    <section>
+      <h3>🧠 Moja czaszka z tomografu</h3>
+      <div class="model-viewer">
+        <!-- Tutaj możesz dodać <model-viewer> dla 3D -->
+        <img src="../../assets/img/ct-skull.jpg" alt="Model 3D czaszki">
+      </div>
+      <p>Proces: DICOM → segmentacja w 3D Slicer → optymalizacja siatki → wydruk PLA.</p>
+      <div class="tech-tags">
+        <span>3D Slicer</span>
+        <span>Blender</span>
+        <span>Bambu Lab P1S</span>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
