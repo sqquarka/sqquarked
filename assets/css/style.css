@@ -1,0 +1,21 @@
+body {
+  background: #e8f5e9; /* Jasnozielone tło */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  background: #4caf50; /* Ciemniejszy zielony */
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.project-card {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 15px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
