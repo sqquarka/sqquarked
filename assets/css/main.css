@@ -1,0 +1,38 @@
+/* Podstawowe resetowanie */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Courier New', monospace;
+  line-height: 1.6;
+  background: #f0f0f0;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.tagline {
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.project-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.tech-used span {
+  display: inline-block;
+  background: #e0e0e0;
+  padding: 0.3rem 0.6rem;
+  border-radius: 20px;
+  margin-right: 0.5rem;
+  font-size: 0.8rem;
+}
