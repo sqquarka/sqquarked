@@ -19,3 +19,11 @@ header {
   margin: 15px 0;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+.tech-tags span {
+  display: inline-block;
+  background: #a5d6a7; /* Pastelowy zielony */
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-right: 8px;
+  font-size: 0.9em;
+}
