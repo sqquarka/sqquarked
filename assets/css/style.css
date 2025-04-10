@@ -27,3 +27,12 @@ header {
   margin-right: 8px;
   font-size: 0.9em;
 }
+.about-background {
+  background-image: url('assets/images/bg-about.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4em;
+  color: white;
+  min-height: 400px;
+}
